@@ -12,6 +12,8 @@ FAILSAFE = True
 
 
 def turn_on(microphone_position):
+	global pause_time
+	
 	system("mmsys.cpl")
 	sleep(pause_time)
 
@@ -27,6 +29,8 @@ def turn_on(microphone_position):
 
 
 def turn_off(microphone_position):
+	global pause_time
+	
 	system("mmsys.cpl")
 	sleep(pause_time)
 
